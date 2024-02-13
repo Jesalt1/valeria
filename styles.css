@@ -9,6 +9,7 @@ body {
 
 .container {
     text-align: center;
+    marin-top: auto;
 }
 
 #gifContainerImg {
