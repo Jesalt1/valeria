@@ -58,7 +58,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
     // Agregar evento de clic al nuevo botón para redirigir a otra página
     document.getElementById('redirectBtn').addEventListener('click', function() {
         // Redirigir a otra página
-        window.location.href = 'xvideos.com';
+        window.location.href = 'carta.html';
     });
   
   
