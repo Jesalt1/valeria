@@ -40,7 +40,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
     // Crear un nuevo botón para redirigir a otra página
     var newButton = document.createElement('button');
     newButton.setAttribute('id', 'redirectBtn');
-    newButton.textContent = 'Ir a otra página';
+    newButton.textContent = 'Carta Para ti';
   
    newButton.style.padding = '10px 20px';
     newButton.style.fontSize = '16px';
