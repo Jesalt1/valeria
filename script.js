@@ -36,6 +36,30 @@ document.getElementById('siBtn').addEventListener('click', function() {
         document.getElementById('happyGifContainer3').style.display = 'none';
         document.getElementById('happyGifContainer4').style.display = 'block';
     }, 3000);
+
+     // Crear un nuevo botón
+    var newButton = document.createElement('button');
+    newButton.setAttribute('id', 'redirectBtn');
+    newButton.textContent = 'Ir a otra página';
+    
+    // Aplicar estilos directamente al nuevo botón
+    newButton.style.padding = '10px 20px';
+    newButton.style.fontSize = '16px';
+    newButton.style.margin = '10px';
+    newButton.style.cursor = 'pointer';
+    newButton.style.backgroundColor = '#009705'; /* Verde */
+    newButton.style.color = 'white';
+    newButton.style.border = '2px solid #FFC0CB'; /* Bordes rosa */
+    newButton.style.borderRadius = '10px'; /* Esquinas redondeadas */
+
+    // Agregar el nuevo botón al contenedor
+    document.getElementById('container').appendChild(newButton);
+
+    // Agregar evento de clic al nuevo botón para redirigir a otra página
+    document.getElementById('redirectBtn').addEventListener('click', function() {
+        // Redirigir a otra página
+        window.location.href = 'nueva_pagina.html';
+    });
   
 });
 
